@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-
+import Footer from "./components/Footer"
 const App = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+     <Footer/> 
+    </>
   )
 }
 
