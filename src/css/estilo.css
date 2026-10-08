@@ -1,0 +1,33 @@
+:root {
+    --color-primary: green;
+    --bg-dark: #141414;
+    --text-color: #fff;
+    --btn-color: #95ff00;
+    --header-bg: rgba(0, 0, 0, 0.8);
+    --linear-bg: linear-gradient(to right, aqua, purple);
+}
+
+.logo:hover {
+    letter-spacing: 10px;
+    animation: acender 0.5s forwards;
+}
+
+.titulo {
+    background-image: linear-gradient(to right, #95ff00, purple, #95ff00);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 700;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.titulo:hover {
+    animation: acender 0.5s forwards;
+}
+
+@keyframes acender {
+    to {
+        color: var(--text-color);
+        text-shadow: 0 0 10px #32f323, 0 0 20px #a8dfe1;
+    }
+}
